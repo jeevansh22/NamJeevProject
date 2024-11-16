@@ -5,7 +5,7 @@ const AboutUs = () => {
     <div className="ml-36">
       <h3 className="font-bold text-4xl">A JOURNEY THROUGH TIME – Est 1942</h3>
       <h2 className="text-blue-950 font-bold text-lg">
-        A JOURNEY THROUGH TIME – Est 1942 hhhhhhhhhh
+        A JOURNEY THROUGH TIME – Est 1942 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
       </h2>
       <p>
         Ours started with farming in a small village, in Gujarat, India. We
