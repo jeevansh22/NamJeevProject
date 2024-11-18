@@ -12,8 +12,8 @@ const Text = () => {
         paddy separating machine, horimy main file tis thiszontal rice milling
         machine, vertical rice milling machine. We strive to conquer new
         milestones in terms of quality and customer satisfaction. We customize
-        capacity as per your special requirement. Good Quality, best price with
-        professional technical support!
+        capacity as per your special requirement. Good Quadsfns,dmfnlity, best
+        price with professional technical support!
       </p>
     </>
   );
