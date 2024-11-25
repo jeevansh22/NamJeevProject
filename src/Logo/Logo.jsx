@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "../../public/Logo/logo.png";
+import logo from "/Logo/logo.png";
 
 const Logo = () => {
   return (
     <>
-      <img src={logo} alt="logo" className="-mt-3" />
+      <img src={logo} alt="logo" className="m-1 h-32" />
     </>
   );
 };

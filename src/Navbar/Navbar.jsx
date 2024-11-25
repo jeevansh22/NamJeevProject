@@ -1,19 +1,18 @@
-
-
 import React, { useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Machinery from "../Machinery/Machinery";
+import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   const [activeDrawer, setActiveDrawer] = useState(null);
 
   const navigation = [
-    { name: "HOME", href: "#", current: true },
-    { name: "MACHINERY", href: "#", current: false },
-    { name: "SPARE PARTS", href: "#", current: false },
-    { name: "Download Catalogue", href: "#", current: false },
-    { name: "ABOUT US", href: "#", current: false },
-    { name: "CONTACT US", href: "#", current: false },
+    { name: "HOME", href: "/", current: true },
+    { name: "MACHINERY", href: "/machinery", current: false },
+    { name: "SPARE PARTS", href: "/spareparts", current: false },
+    { name: "Download Catalogue", href: "/downloadcatalogue", current: false },
+    { name: "ABOUT US", href: "/aboutus", current: false },
+    { name: "CONTACT US", href: "/contactus", current: false },
   ];
 
   function classNames(...classes) {
@@ -44,24 +43,29 @@ const Navbar = () => {
                   <div className="hidden sm:block">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
-                        <a
+                        <NavLink
+                          to={item.href}
                           key={item.name}
-                          href={item.href}
                           onMouseEnter={() =>
                             ["MACHINERY", "SPARE PARTS"].includes(item.name)
                               ? setActiveDrawer(item.name)
                               : setActiveDrawer(null)
                           }
                           onMouseLeave={() => setActiveDrawer(null)}
-                          className={classNames(
-                            item.current
-                              ? "bg-blue-700 text-white"
-                              : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                            "rounded-md px-3 py-2 text-sm font-medium"
-                          )}
+                          // className={classNames(
+                          //   item.current
+                          //     ? "bg-blue-700 text-white"
+                          //     : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                          //   "rounded-md px-3 py-2 text-sm font-medium"
+                          // )}
+                          className={({ isActive }) =>
+                            `${isActive ? "bg-blue-700" : ""}
+                            rounded-md px-3 py-2 text-sm font-medium text-white
+                          `
+                          }
                         >
                           {item.name}
-                        </a>
+                        </NavLink>
                       ))}
                     </div>
                   </div>
