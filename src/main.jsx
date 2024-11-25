@@ -12,6 +12,7 @@ import Layout from "./Layout.jsx";
 import Homepage from "./Homepage/Homepage.jsx";
 import AboutUs from "./AboutUs/AboutUs.jsx";
 import ContactUs from "./ContactUs/ContactUs.jsx";
+import Machinery from "./Machinery/Machinery.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path="" element={<Homepage />} />
       <Route path="aboutus" element={<AboutUs />} />
       <Route path="contactus" element={<ContactUs />} />
+      <Route path="machinery" element={<Machinery />} />
     </Route>
   )
 );
