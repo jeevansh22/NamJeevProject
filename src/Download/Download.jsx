@@ -1,19 +1,19 @@
 import React from "react";
-
+import image1 from "../../public/Pdfs/MTRA Brochure_GE_20.10.21 (1).pdf"
 const DownloadCatalogue = () => {
   const catalogues = [
-    { title: "DESTONER - SGA5B-T", link: "#" },
-    { title: "DESTONER - SGA10B(2)-T", link: "#" },
-    { title: "DESTONER - SGA15BD-T", link: "#" },
-    { title: "GRAIN COLOUR SORTER - RMGS1404DIS", link: "#" },
-    { title: "DESTONER - SGA5B-T", link: "#" },
-    { title: "DESTONER - SGA10B(2)-T", link: "#" },
-    { title: "DESTONER - SGA15BD-T", link: "#" },
-    { title: "GRAIN COLOUR SORTER - RMGS1404DIS", link: "#" },
-    { title: "DESTONER - SGA5B-T", link: "#" },
-    { title: "DESTONER - SGA10B(2)-T", link: "#" },
-    { title: "DESTONER - SGA15BD-T", link: "#" },
-    { title: "GRAIN COLOUR SORTER - RMGS1404DIS", link: "#" },
+    { title: "SmartWhite.DRWD Whitener", link: "/Pdfs/622d55982a6c4416b62e9673c451265d.pdf" },
+    { title: "Deschinadora.MTSD.", link: "/Pdfs/Brochure_GM_IM_Destoner_MTSD_ES_LQ_BID21.pdf" },
+    { title: "TopWhiteTM II Whitener BSPB.", link: "/Pdfs/BSPB Whitener Brochure.pdf" },
+    { title: "Extra Life Rubber Rolls.for TopHusk™ hullerDRHC and DRHE.", link: "/Pdfs/DRHE_ Rubber Rolls_Flyer.pdf" },
+    { title: "Extra Life Rubber Rolls.for TopHusk™ hullerDRHC and DRHE", link: "/Pdfs/DRHE_ Rubber Rolls_Flyer_en.pdf" },
+    { title: "DRPNHighPoly Polisher Product Presentation", link: "/Pdfs/DRPN.pdf" },
+    { title: "SDRTA Paddy Separater ——R&D Maggie zhao", link: "/Pdfs/DRTA_ppt.pdf" },
+    { title: "DRTA Paddy Separater ——R&D Maggie zhao ", link: "/Pdfs/DRTA_presentation.pdf" },
+    { title: "TopHuskTM Huller and Husk Separator. DRHE/DRSD", link: "/Pdfs/GQ_Huller_Husk separator_DRHE_DRSD_Brochure_LQ_BID21.pdf" },
+    { title: "Cyclone separator.", link: "/Pdfs/MGXG_MGXG Cyclone separator_23136_EN.pdf" },
+    { title: "Magnetic separator.", link: "/Pdfs/MMUA_MMUA Magnetic Separator_11739_en.pdf" },
+    { title: "MTRA/MVSF Separator Classifier/Aspirator.", link: "/Pdfs/MTRA Brochure_GE_20.10.21 (1).pdf" },
   ];
 
   return (
