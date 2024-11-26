@@ -16,7 +16,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full mt-8">
+    <div className="relative w-full h-auto">
       {/* Carousel Container */}
       <div className="overflow-hidden">
         <img

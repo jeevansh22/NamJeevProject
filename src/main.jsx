@@ -14,8 +14,9 @@ import AboutUs from "./AboutUs/AboutUs.jsx";
 import ContactUs from "./ContactUs/ContactUs.jsx";
 import Download from "./Download/Download.jsx";
 import MachineList from "./Machinery/MachineList.jsx";
-import Machinery from "./Machinery/MachineryDetails"
+import Machinery from "./Machinery/MachineryDetails";
 import Details from "./Machinery/Details.jsx";
+import InquiryForm from "./Machinery/InquiryForm.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="machinery" element={<Details />} />
       <Route path="downloadcatalogue" element={<Download />} />
       <Route path="machine/:id" element={<Machinery />} />
+      <Route path="inquiryform" element={<InquiryForm />} />
     </Route>
   )
 );

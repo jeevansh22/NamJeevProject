@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Machinery from "../Machinery/Machinery";
+import Machinery from "../Machinery/MachineList";
 import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   const [activeDrawer, setActiveDrawer] = useState(null);

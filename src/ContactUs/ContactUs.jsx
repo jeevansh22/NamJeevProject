@@ -79,8 +79,8 @@ const ContactUs = () => {
                       href="javascript:void(0)"
                       className="text-[#007bff] text-sm ml-4"
                     >
-                      <small className="block">Mail</small>
-                      <strong>info@example.com</strong>
+                      <small className="block">E-Mail</small>
+                      <strong>trimukh.buhler@gmail.com</strong>
                     </a>
                   </li>
                 </ul>
