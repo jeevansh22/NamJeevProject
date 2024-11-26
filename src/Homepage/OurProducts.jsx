@@ -16,9 +16,7 @@ const OurProducts = () => {
 
   return (
     <>
-      <h2 className="text-center text-4xl">
-        Sustainable, Accessible and Compatible Our Products
-      </h2>
+      <h2 className="text-center font-bold text-3xl mt-4">Our Products</h2>
       <div className="min-h-screen bg-gray-100 flex justify-center items-center">
         <div className="grid grid-cols-3 gap-6 p-6 max-w-screen-lg w-full">
           {productImages.map((image, index) => (

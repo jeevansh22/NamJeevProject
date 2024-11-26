@@ -6,12 +6,12 @@ import Footer from "./Footer/Footer";
 
 const Layout = () => {
   return (
-    <>
+    <div className="bg-gray-100">
       <Logo />
       <Navbar />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 };
 

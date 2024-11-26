@@ -1,12 +1,11 @@
 import React, { useState } from "react";
+import slide1 from "/Slides/slide1.jpg";
+import slide2 from "/Slides/slide2.jpg";
+import slide3 from "/Slides/slide3.jpg";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = [
-    "https://via.placeholder.com/800x400.png?text=Slide+1",
-    "https://via.placeholder.com/800x400.png?text=Slide+2",
-    "https://via.placeholder.com/800x400.png?text=Slide+3",
-  ];
+  const images = [slide1, slide2, slide3];
 
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));

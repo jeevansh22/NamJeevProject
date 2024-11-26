@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <>
       <section className="bg-gray-100">
-        <div className=" mt-5 mx-10 py-5 px-4 sm:px-6 lg:py-20 lg:px-8 bg-slate-200 border-4 rounded-lg inline-block border-gray-500">
+        <div className=" mt-10 mx-10 py-5 px-4 sm:px-6 lg:py-20 lg:px-8 bg-white font-[sans-serif]  rounded-lg inline-block border-gray-500">
           <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 ">
               Visit Our Location

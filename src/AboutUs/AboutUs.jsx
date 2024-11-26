@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="mx-32">
+    <div className="mx-32 bg-white rounded-lg p-5 my-10">
       <p className="text-2xl font-normal mt-6">
         We are an authorized Channel Partner & Reseller of Buhler—a group with
         its parent company in Switzerland and worldwide activities in the field
