@@ -9,7 +9,6 @@ const Navbar = () => {
   const navigation = [
     { name: "HOME", href: "/", current: true },
     { name: "MACHINERY", href: "/machinery", current: false },
-    { name: "SPARE PARTS", href: "/spareparts", current: false },
     { name: "Download Catalogue", href: "/downloadcatalogue", current: false },
     { name: "ABOUT US", href: "/aboutus", current: false },
     { name: "CONTACT US", href: "/contactus", current: false },
