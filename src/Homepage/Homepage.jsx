@@ -3,13 +3,14 @@ import Carousel from "./Carousel";
 import Text from "./Text";
 import OurProducts from "./OurProducts";
 import NewsLetter from "./NewsLetter";
-import Details from "../Machinery/Details"
+import Details from "../Machinery/Details";
 const Homepage = () => {
   return (
     <>
       <Carousel />
       <Text />
-      <Details/>
+      {/* <OurProducts /> */}
+      <Details />
       <NewsLetter />
     </>
   );
