@@ -19,19 +19,16 @@ const Machinery = () => {
         <div className="w-full mx-auto px-4 sm:px-6 lg:px-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mx-auto max-md:px-2 ">
             <div className="img">
-              <div className="img-box h-full max-lg:mx-auto ">
+              <div className="img-box h-full max-lg:mx-auto">
                 <img
-                  // src={image1}
+                  src={machinery.image}
                   alt="Machinery"
-                  className="max-lg:mx-auto lg:ml-auto h-full object-cover"
+                  className="w-96 h-96 sm:w-64 sm:h-64 lg:w-[450px] lg:h-[450px] object-cover mx-auto"
                 />
               </div>
             </div>
             <div className="data w-full lg:pr-8 pr-0 xl:justify-start justify-center flex items-center max-lg:pb-10 xl:my-2 lg:my-5 my-0">
               <div className="data w-full max-w-xl">
-                <p className="text-lg font-medium leading-8 text-blue-900 mb-4">
-                  Machinery&nbsp; /&nbsp; Home
-                </p>
                 <h2 className="font-manrope font-bold text-3xl leading-10 text-gray-900 mb-2 capitalize">
                   {machinery.name}
                 </h2>
