@@ -99,7 +99,7 @@ const Navbar = () => {
       {/* Responsive Drawer Below Navigation */}
       {activeDrawer && (
         <div className="absolute left-0 w-full bg-gray-100 shadow-lg z-50">
-          <div className="mx-auto max-w-7xl px-4 py-4">
+          {/* <div className="mx-auto max-w-7xl px-4 py-4">
             <h2 className="text-lg font-medium text-gray-800">
               {activeDrawer === "MACHINERY"
                 ? "Explore our range of machinery"
@@ -110,7 +110,7 @@ const Navbar = () => {
                 ? "Browse through our collection of high-quality machinery designed to meet your needs."
                 : "Find the perfect spare parts for your equipment."}
             </p>
-          </div>
+          </div> */}
         </div>
       )}
     </>
