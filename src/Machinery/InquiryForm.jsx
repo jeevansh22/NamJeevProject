@@ -3,7 +3,7 @@ import React from "react";
 const InquiryForm = () => {
   return (
     <>
-      <div className="flex items-center justify-center h-screen bg-gray-100">
+      <div className="flex items-center justify-center h-screen bg-gray-100 ">
         <form
           action="#"
           method="post"
@@ -71,7 +71,7 @@ const InquiryForm = () => {
           </div>
           <button
             type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full"
+            className="bg-teal-700 text-white px-4 py-2 rounded hover:bg-teal-600 w-full"
           >
             Submit
           </button>

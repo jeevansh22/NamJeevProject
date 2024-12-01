@@ -38,7 +38,7 @@ const Machinery = () => {
                   </h6> */}
                   <div className="flex items-center gap-2"></div>
                 </div>
-                <p className="text-gray-500 text-base font-normal mb-5">
+                <p className="text-gray-700 text-base font-semibold mb-5">
                   {machinery.description}
                 </p>
                 <h1 className="text-4xl font-bold mb-10">Features</h1>
@@ -46,21 +46,20 @@ const Machinery = () => {
                   {machinery.features.map((feature, index) => (
                     <li className="flex items-center gap-3" key={index}>
                       <svg
-                        width="26"
-                        height="26"
+                        className="w-6 h-6 flex-shrink-0"
                         viewBox="0 0 26 26"
-                        fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <rect width="26" height="26" rx="13" fill="#4F46E5" />
+                        <rect width="26" height="26" rx="13" fill="#008080" />
                         <path
                           d="M7.66669 12.629L10.4289 15.3913C10.8734 15.8357 11.0956 16.0579 11.3718 16.0579C11.6479 16.0579 11.8701 15.8357 12.3146 15.3913L18.334 9.37183"
+                          fill="none"
                           stroke="white"
-                          stroke-width="1.6"
-                          stroke-linecap="round"
+                          strokeWidth="1.6"
+                          strokeLinecap="round"
                         />
                       </svg>
-                      <span className="font-normal text-base text-gray-900 ">
+                      <span className="font-normal text-base text-gray-900">
                         {feature}
                       </span>
                     </li>
@@ -69,7 +68,7 @@ const Machinery = () => {
 
                 <div className="flex items-center gap-3">
                   <Link to={"/inquiryform"}>
-                    <button className="border-4 border-blue-950 p-1 px-4 rounded-md bg-blue-800 text-white">
+                    <button className="border-4 border-sky-900 p-1 px-4 rounded-md bg-teal-700 hover:bg-teal-800 text-white">
                       Enquiry
                     </button>
                   </Link>

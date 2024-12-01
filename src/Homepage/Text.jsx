@@ -3,7 +3,7 @@ import React from "react";
 const Text = () => {
   return (
     <div className="bg-gray-50 py-12 px-6">
-      <h2 className="text-center font-bold text-4xl mb-6 text-blue-900">
+      <h2 className="text-center font-bold text-4xl mb-6 text-gray-900">
         What We Do?
       </h2>
       <p className="text-center text-lg font-medium text-gray-700 max-w-3xl mx-auto">

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-blue-900">
+      <footer className="bg-gray-800">
         <div className="mx-auto max-w-screen-xl space-y-8 px-120 py-16 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
             <div>
@@ -149,7 +149,7 @@ const Footer = () => {
                   <li>
                     <button
                       type="submit"
-                      className="w-full px-4 py-2 mt-4 bg-gray-800 text-white rounded-md hover:bg-orange-500 transition"
+                      className="w-full px-4 py-2 mt-4 bg-teal-800 text-white rounded-md hover:bg-teal-900 transition"
                     >
                       Submit
                     </button>
@@ -159,8 +159,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <p className="text-xs text-gray-500">
-            &copy; 2022. Company Name. All rights reserved.
+          <p className="text-xl font-bold text-gray-500">
+            &copy;  Trimukh sales and services LLp. All rights reserved
           </p>
         </div>
       </footer>

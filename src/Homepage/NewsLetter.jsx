@@ -3,7 +3,7 @@ import React from "react";
 const NewsLetter = () => {
   return (
     <div className="bg-gray-400 text-center py-10 px-4 mt-8">
-      <h2 className="text-2xl font-bold mb-4 text-gray-800">
+      <h2 className="text-2xl font-bold mb-4 text-gray-900">
         Subscribe to our Newsletter
       </h2>
       <form

@@ -77,7 +77,7 @@ const ContactUs = () => {
                     </div>
                     <a
                       href="javascript:void(0)"
-                      className="text-[#007bff] text-sm ml-4"
+                      className="text-gray-800 text-sm ml-4"
                     >
                       <small className="block">E-Mail</small>
                       <strong>trimukh.buhler@gmail.com</strong>
@@ -162,7 +162,7 @@ const ContactUs = () => {
               ></textarea>
               <button
                 type="button"
-                className="text-white bg-blue-500 hover:bg-blue-600 tracking-wide rounded-md text-sm px-4 py-3 w-full !mt-6"
+                className="text-white bg-teal-600 hover:bg-blue-600 tracking-wide rounded-md text-sm px-4 py-3 w-full !mt-6"
               >
                 Send
               </button>

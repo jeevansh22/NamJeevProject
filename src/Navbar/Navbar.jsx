@@ -9,7 +9,7 @@ const Navbar = () => {
   const navigation = [
     { name: "HOME", href: "/", current: true },
     { name: "MACHINERY", href: "/machinery", current: false },
-    { name: "Download Catalogue", href: "/downloadcatalogue", current: false },
+    { name: "DOWNLOAD CATALOGUE", href: "/downloadcatalogue", current: false },
     { name: "ABOUT US", href: "/aboutus", current: false },
     { name: "CONTACT US", href: "/contactus", current: false },
   ];
@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Disclosure as="nav" className="bg-blue-900">
+      <Disclosure as="nav" className="bg-gray-800">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -58,7 +58,7 @@ const Navbar = () => {
                           //   "rounded-md px-3 py-2 text-sm font-medium"
                           // )}
                           className={({ isActive }) =>
-                            `${isActive ? "bg-blue-700" : ""}
+                            `${isActive ? "bg-teal-500" : ""}
                             rounded-md px-3 py-2 text-sm font-medium text-white
                           `
                           }
